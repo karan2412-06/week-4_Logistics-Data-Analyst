@@ -1,0 +1,23 @@
+{
+  "dataset_rows": 900,
+  "train_rows": 720,
+  "test_rows": 180,
+  "results": {
+    "Linear Regression": {
+      "MAE": 0.344851385676228,
+      "RMSE": 0.4122585630956095,
+      "R2": 0.9199628034867624
+    },
+    "Random Forest": {
+      "MAE": 0.4136500018131255,
+      "RMSE": 0.513121369356493,
+      "R2": 0.8760082753578127,
+      "CV_MAE_mean": 0.4105978408664915,
+      "CV_MAE_std": 0.016413331885058512
+    }
+  },
+  "selected_model": "Linear Regression",
+  "high_risk_threshold_hours": 5.571724145416634,
+  "high_risk_count": 225,
+  "seed": 42
+}
